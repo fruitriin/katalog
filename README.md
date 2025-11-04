@@ -1,75 +1,44 @@
-# Nuxt 3 Minimal Starter
+# Katalog
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Vue製のコンポーネントカタログツール
 
-## Setup
+## 概要
 
-Make sure to install the dependencies:
+StorybookはReact製でReactのサポートが手厚いため、Vue開発者にとって最適とは言えません。Katalogは、Vue開発者のためのコンポーネントカタログツールとして開発されています。
+
+## 目標
+
+- Vue 3に最適化されたコンポーネントカタログ
+- TypeScriptファーストサポート
+- 直感的で使いやすいUI/UX
+- 高速な開発体験
+
+## 技術スタック
+
+- Vue 3 + Composition API
+- TypeScript
+- Vite
+- Vitest
+
+## 開発
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# 依存関係のインストール
 pnpm install
 
-# yarn
-yarn install
+# 開発サーバー起動
+pnpm dev
 
-# bun
-bun install
+# ビルド
+pnpm build
+
+# テスト実行
+pnpm test
+
+# 型チェック
+pnpm typecheck
 ```
 
-## Development Server
+## ライセンス
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+MIT
